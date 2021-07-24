@@ -273,6 +273,47 @@ nav .menuWrap .hamburger .span2.two {
   place-items: center;
 }
 
+.landing::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 26rem;
+  height: 26rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("https://raw.githubusercontent.com/adeolaadeoti/adeolaadeoti-v2/main/public/webp/hand-left.webp");
+}
+
+@media only screen and (max-width: 45em) {
+  .landing::before {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+.landing::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0rem;
+  width: 25rem;
+  height: 45rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("https://raw.githubusercontent.com/adeolaadeoti/adeolaadeoti-v2/main/public/webp/hand-right.webp");
+  z-index: -1;
+}
+
+@media only screen and (max-width: 45em) {
+  .landing::after {
+    width: 20rem;
+    height: 40rem;
+  }
+}
+
 .landing ._wrapperLanding {
   width: 1120px;
   height: 500px;
@@ -746,7 +787,6 @@ nav .menuWrap .hamburger .span2.two {
   font-weight: bold;
   line-height: 1.3;
   max-width: unset;
-  color: #4831D4;
 }
 
 .mail ._mailWrapper ._mailText p {
@@ -758,7 +798,7 @@ nav .menuWrap .hamburger .span2.two {
   width: 32vw;
   max-width: 701px;
   font-family: 'Josefin Sans', sans-serif;
-  color: #3d155f;
+  color: #cbc9e2;
 }
 
 .mail ._mailWrapper ._mailForm {
@@ -807,7 +847,7 @@ nav .menuWrap .hamburger .span2.two {
   font-family: 'Josefin Sans', sans-serif;
   font-size: .9rem;
   font-weight: 200;
-  color: #4831d4;
+  color: #cbc9e2;
 }
 
 .mail ._mailWrapper ._mailForm ._row .rowI input {
@@ -817,7 +857,7 @@ nav .menuWrap .hamburger .span2.two {
   border: 0;
   outline: 0;
   background: transparent;
-  border-bottom: 1px solid rgba(61, 21, 95, 0.7);
+  border-bottom: 1px solid #cbc9e2;
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
   letter-spacing: normal;
@@ -836,34 +876,34 @@ nav .menuWrap .hamburger .span2.two {
   font-size: 1.1rem;
   padding: 1rem;
   padding-left: 0px;
-  color: #4831d4;
+  color: #cbc9e2;
   opacity: 0.7;
-  caret-color: #4831d4;
+  caret-color: #cbc9e2;
 }
 
 .mail ._mailWrapper ._mailForm ._row .rowI input::-webkit-input-placeholder {
-  color: rgba(61, 21, 95, 0.5);
+  color: #cbc9e2;
   font-size: 1rem;
   background: none;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .mail ._mailWrapper ._mailForm ._row .rowI input:-ms-input-placeholder {
-  color: rgba(61, 21, 95, 0.5);
+  color: #cbc9e2;
   font-size: 1rem;
   background: none;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .mail ._mailWrapper ._mailForm ._row .rowI input::-ms-input-placeholder {
-  color: rgba(61, 21, 95, 0.5);
+  color: #cbc9e2;
   font-size: 1rem;
   background: none;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .mail ._mailWrapper ._mailForm ._row .rowI input::placeholder {
-  color: rgba(61, 21, 95, 0.5);
+  color: #cbc9e2;
   font-size: 1rem;
   background: none;
   font-family: 'Josefin Sans', sans-serif;
@@ -881,32 +921,32 @@ nav .menuWrap .hamburger .span2.two {
   font-family: 'Josefin Sans', sans-serif;
   font-size: .9rem;
   font-weight: 200;
-  color: #4831d4;
+  color: #cbc9e2;
 }
 
 .mail ._mailWrapper ._mailForm ._row .rowT textarea::-webkit-input-placeholder {
-  color: rgba(61, 21, 95, 0.5);
+  color: #cbc9e2;
   font-size: 1.1rem;
   background: none;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .mail ._mailWrapper ._mailForm ._row .rowT textarea:-ms-input-placeholder {
-  color: rgba(61, 21, 95, 0.5);
+  color: #cbc9e2;
   font-size: 1.1rem;
   background: none;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .mail ._mailWrapper ._mailForm ._row .rowT textarea::-ms-input-placeholder {
-  color: rgba(61, 21, 95, 0.5);
+  color: #cbc9e2;
   font-size: 1.1rem;
   background: none;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .mail ._mailWrapper ._mailForm ._row .rowT textarea::placeholder {
-  color: rgba(61, 21, 95, 0.5);
+  color: #cbc9e2;
   font-size: 1.1rem;
   background: none;
   font-family: 'Josefin Sans', sans-serif;
@@ -919,15 +959,15 @@ nav .menuWrap .hamburger .span2.two {
   border: 0;
   outline: 0;
   background: transparent;
-  border-bottom: 1px solid rgba(61, 21, 95, 0.7);
+  border-bottom: 1px solid #cbc9e2;
   cursor: text;
   margin-top: -.3em;
   font-size: 1rem;
   padding: 1rem;
   padding-left: 0px;
-  color: #4831d4;
+  color: #cbc9e2;
   opacity: 0.7;
-  caret-color: #4831d4;
+  caret-color: #cbc9e2;
   resize: none;
   font-family: 'Poppins', sans-serif;
 }
@@ -963,12 +1003,15 @@ nav .menuWrap .hamburger .span2.two {
   padding: 1.6em 3em;
   margin: 0 auto;
   margin-top: 1.2rem;
-  color: #4831d4;
-  border: 1px solid currentColor;
+  color: #cbc9e2;
+  border: 1px solid #cbc9e2;
 }
 
 .mail ._mailWrapper ._mailForm ._row .shoot span {
-  background-color: #4831d4;
+  background: linear-gradient(76deg, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff);
+  -webkit-animation: slime 45s ease infinite;
+  animation: slime 45s ease infinite;
+  opacity: .3;
   height: 100%;
   position: absolute;
   z-index: -1;
@@ -1004,7 +1047,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #badd76;
+  color: #f5f5fad2;
 }
 
 footer ._footWrapper {
@@ -1071,8 +1114,8 @@ footer ._footWrapper .ulBox ul li {
 }
 
 footer ._footWrapper .ulBox ul li:hover {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
   letter-spacing: 2px;
 }
 
@@ -1096,7 +1139,7 @@ footer ._footBase {
   -webkit-box-pack: space-between;
   -ms-flex-pack: space-between;
   justify-content: space-between;
-  border-top: 1px solid #badd76;
+  border-top: 1px solid #cbc9e2;
 }
 
 footer ._footBase span {
@@ -1113,6 +1156,7 @@ footer ._footBase ul {
   -ms-flex-pack: space-between;
   justify-content: space-between;
   font-size: 1.15em;
+  width: 250px;
 }
 
 footer ._footBase ul li {
@@ -1132,13 +1176,9 @@ footer ._footBase ul li {
 }
 
 footer ._footBase ul li:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
   letter-spacing: 2px;
-}
-
-footer ._footBase ul li:not(:last-of-type) {
-  margin-right: 2.5em;
 }
 
 .chill {

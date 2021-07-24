@@ -6,7 +6,7 @@ export const Mail = () => {
             <section className="mail">
               <div className="_mailWrapper">
                   <div className="_mailText">
-                        <h1>
+                        <h1 className="h1BG">
                             Send me a message!
                         </h1>
                         <p>

@@ -24,7 +24,6 @@
                 font-weight: bold;
                 line-height: 1.3;
                 max-width: unset;
-                color: #4831D4;
             }
             p {
                 margin: 0 auto;
@@ -35,7 +34,7 @@
                 width: 32vw;
                  max-width: 701px;
                  font-family: 'Josefin Sans', sans-serif;
-                color: #3d155f;
+                color: #cbc9e2;
             }
         }
 
@@ -70,7 +69,7 @@
                         font-family: 'Josefin Sans', sans-serif;
                         font-size: .9rem;
                            font-weight: 200;
-                           color: $bg-color;
+                           color: #cbc9e2;
                     }
                     input {
                         font-weight: 200;
@@ -79,7 +78,7 @@
                         border: 0;
                         outline: 0;
                         background: transparent;
-                        border-bottom: 1px solid rgba(61, 21, 95, 0.7);
+                        border-bottom: 1px solid #cbc9e2;
                         // border-bottom: 1.5px solid #3d155f;
                         -webkit-writing-mode: horizontal-tb !important;
                         text-rendering: auto;
@@ -97,13 +96,13 @@
                         font-size: 1.1rem;
                         padding: 1rem;
                         padding-left: 0px;
-                        color: $bg-color;
+                        color: #cbc9e2;
                         opacity: 0.7;
-                        caret-color: $bg-color;
+                        caret-color: #cbc9e2;
                     }
                         
                     input::placeholder {
-                        color: rgba(61, 21, 95, 0.5);
+                        color: #cbc9e2;
                         font-size: 1rem;
                         background: none;
                         font-family: 'Josefin Sans', sans-serif;
@@ -121,11 +120,11 @@
                         font-family: 'Josefin Sans', sans-serif;
                         font-size: .9rem;
                            font-weight: 200;
-                           color: $bg-color;
+                           color: #cbc9e2;
                     }
 
                     textarea::placeholder {
-                        color: rgba(61, 21, 95, 0.5);
+                        color: #cbc9e2;
                         font-size: 1.1rem;
                         background: none;
                         font-family: 'Josefin Sans', sans-serif;
@@ -138,15 +137,15 @@
                          border: 0;
                         outline: 0;
                         background: transparent;
-                        border-bottom: 1px solid rgba(61, 21, 95, 0.7);
+                        border-bottom: 1px solid #cbc9e2;
                         cursor: text;
                         margin-top: -.3em;
                         font-size: 1rem;
                         padding: 1rem;
                         padding-left: 0px;
-                        color: $bg-color;
+                        color: #cbc9e2;
                         opacity: 0.7;
-                        caret-color: $bg-color;
+                        caret-color: #cbc9e2;
                         resize: none;
                         font-family: 'Poppins', sans-serif;
                     }      
@@ -179,11 +178,14 @@
                     padding: 1.6em 3em;
                     margin: 0 auto;
                     margin-top: 1.2rem;
-                    color: #4831d4;
-                    border: 1px solid currentColor;
+                    color: #cbc9e2;
+                    border: 1px solid #cbc9e2;
 
                      span {
-                        background-color: $bg-color;
+                         background: linear-gradient(76deg, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff);
+                        -webkit-animation: slime 45s ease infinite;
+                        animation: slime 45s ease infinite;
+                        opacity: .3;
                         height: 100%;
                         position: absolute;
                         z-index: -1;

@@ -277,9 +277,44 @@ nav {
   display: grid;
   position: relative;
   place-items: center;
-  // background: #020e18;
+  // background: #020e1828;
   // background: rgb(16, 16, 17);
   // background: $bg-color-landing;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 26rem;
+    height: 26rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://raw.githubusercontent.com/adeolaadeoti/adeolaadeoti-v2/main/public/webp/hand-left.webp");
+    @media only screen and (max-width: 45em) {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0rem;
+    width: 25rem;
+    height: 45rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://raw.githubusercontent.com/adeolaadeoti/adeolaadeoti-v2/main/public/webp/hand-right.webp");
+    z-index: -1;
+
+    @media only screen and (max-width: 45em) {
+      width: 20rem;
+      height: 40rem;
+    }
+  }
 
   ._wrapperLanding {
      width: 1120px;
