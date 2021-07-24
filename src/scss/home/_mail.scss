@@ -1,0 +1,207 @@
+.mail {
+    height: 680px;
+    width: 100%;
+    // background: #f5f5f5;
+    display: grid;
+    place-items: center;
+
+    ._mailWrapper {
+        width: 1092.800px;
+        height: 503.047px;
+        // background: green;
+        margin-top: 3rem;
+        display: grid;
+        place-items: center;
+
+        ._mailText {
+            text-align: center;
+            margin-bottom: 5.2em;
+            width: auto;
+            // margin-top: 1rem;
+                        
+            h1 {
+                font-size: 2.5em;
+                font-weight: bold;
+                line-height: 1.3;
+                max-width: unset;
+                color: #4831D4;
+            }
+            p {
+                margin: 0 auto;
+                font-size: 1.2em;
+                line-height: 1.2;
+                margin-top: 15px;
+                letter-spacing: 0.02em;
+                width: 32vw;
+                 max-width: 701px;
+                 font-family: 'Josefin Sans', sans-serif;
+                color: #3d155f;
+            }
+        }
+
+        ._mailForm {
+            width: 60%;
+            min-width: 500px;
+            // background: grey;
+            height: 309.016px;
+            margin-top: -1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+
+            ._row {
+                width: 100%;
+                height: auto;
+                // background: pink;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+
+                .rowI {
+                    width: 45%;
+                    height: auto;
+                    display: inline-block;
+
+                    label {
+                        display: inline-block;
+                        margin-bottom: 5px;
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-size: .9rem;
+                           font-weight: 200;
+                           color: $bg-color;
+                    }
+                    input {
+                        font-weight: 200;
+                        width: 100%;
+                        height: 2rem;
+                        border: 0;
+                        outline: 0;
+                        background: transparent;
+                        border-bottom: 1px solid rgba(61, 21, 95, 0.7);
+                        // border-bottom: 1.5px solid #3d155f;
+                        -webkit-writing-mode: horizontal-tb !important;
+                        text-rendering: auto;
+                        letter-spacing: normal;
+                        word-spacing: normal;
+                        text-transform: none;
+                        text-indent: 0px;
+                        text-shadow: none;
+                        display: inline-block;
+                        text-align: start;
+                        appearance: textfield;
+                        -webkit-rtl-ordering: logical;
+                        cursor: text;
+                        margin-top: .5em;
+                        font-size: 1.1rem;
+                        padding: 1rem;
+                        padding-left: 0px;
+                        color: $bg-color;
+                        opacity: 0.7;
+                        caret-color: $bg-color;
+                    }
+                        
+                    input::placeholder {
+                        color: rgba(61, 21, 95, 0.5);
+                        font-size: 1rem;
+                        background: none;
+                        font-family: 'Josefin Sans', sans-serif;
+                    }    
+                }  
+                 
+                .rowT {
+                    width: 100%;
+                    height: auto;
+                    display: inline-block;
+
+                    label {
+                        display: inline-block;
+                        margin-bottom: 5px;
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-size: .9rem;
+                           font-weight: 200;
+                           color: $bg-color;
+                    }
+
+                    textarea::placeholder {
+                        color: rgba(61, 21, 95, 0.5);
+                        font-size: 1.1rem;
+                        background: none;
+                        font-family: 'Josefin Sans', sans-serif;
+                    } 
+
+                    textarea {
+                        width: 100%;
+                        height: 4.8rem;
+                        display: block;
+                         border: 0;
+                        outline: 0;
+                        background: transparent;
+                        border-bottom: 1px solid rgba(61, 21, 95, 0.7);
+                        cursor: text;
+                        margin-top: -.3em;
+                        font-size: 1rem;
+                        padding: 1rem;
+                        padding-left: 0px;
+                        color: $bg-color;
+                        opacity: 0.7;
+                        caret-color: $bg-color;
+                        resize: none;
+                        font-family: 'Poppins', sans-serif;
+                    }      
+                }
+
+                .shoot {
+                    text-align: center;
+                    font-family: 'Josefin Sans', sans-serif;
+                    min-width: 23.222em;
+                    position: relative;
+                    font-weight: bold;
+                    -webkit-text-transform: uppercase;
+                    text-transform: uppercase;
+                    letter-spacing: 0.1em;
+                    font-size: 0.8em;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    display: -webkit-inline-box;
+                    display: -webkit-inline-flex;
+                    display: -ms-flexbox;
+                    display: inline-flex;
+                    overflow: hidden;
+                    background: transparent;
+                    white-space: nowrap;
+                    -webkit-tap-highlight-color: transparent;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 1.6em 3em;
+                    margin: 0 auto;
+                    margin-top: 1.2rem;
+                    color: #4831d4;
+                    border: 1px solid currentColor;
+
+                     span {
+                        background-color: $bg-color;
+                        height: 100%;
+                        position: absolute;
+                        z-index: -1;
+                        -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+                        -webkit-transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+                        transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+                    }
+                }
+
+                 .shoot:hover {
+                    color: #fff;
+                    z-index: 1;
+                }
+                .shoot:hover span{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+

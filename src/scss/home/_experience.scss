@@ -1,0 +1,65 @@
+.experience {
+    // height: 695px;
+    height: 100vh;
+    width: 100%;
+    // background-color: $bg-color;
+    display: grid;
+    place-items: center;
+
+    ._expWrapper {
+         height: auto;
+        width: 1092.800px;
+        // background-color: rgb(112, 40, 40);
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        ._expText {
+            max-width: 701px;
+            height: auto;
+            text-align: left;
+
+            h1 {
+                margin: 0;
+                font-size: 3.6em;
+                font-weight: 900;
+                line-height: 1.1;
+                letter-spacing: -0.03em;
+                display: block;
+                margin-bottom: 1.2rem;
+                margin-top: .3rem;
+            }
+
+            p {
+                width: 27vw;
+                color: #cbc9e2; 
+                // max-width: 701px;
+                font-size: .92em;
+                line-height: 1.6;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                font-family: 'Josefin Sans', sans-serif;
+                
+            }
+        }
+
+        figure {
+            width: 46em;
+            max-width: 100%;
+            transform: translate3d(0, 0, 0);
+            height: 500px;
+            display: grid;
+            place-items: center;
+            // background-color: #f5f5fa;
+
+            img {
+                height: 450px;
+            }
+        }
+    }
+
+}

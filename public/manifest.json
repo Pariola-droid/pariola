@@ -1,0 +1,25 @@
+{
+  "short_name": "Pariola",
+  "name": "pariola.tech",
+  "icons": [
+    {
+      "src": "PariolaVictory.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "Pariola_Victory.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Pariola_Victory.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": " #020e18"
+}

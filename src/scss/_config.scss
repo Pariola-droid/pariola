@@ -1,0 +1,14 @@
+$link-color: #f5f5f5;
+$bg-color: #4831d4;
+$nav-color: #ccf381;
+$bg-color-landing: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
+$space: 3.5rem;
+
+// Set nav's hamburger color based on bg-color
+@function set-nav-color($nav-color) {
+    @if(lightness($nav-color) < 70) {
+        @return #4831d4;
+    }@else {
+        @return #ccf381;
+    }
+}

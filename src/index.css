@@ -1,0 +1,82 @@
+/* @import "./scss/_config.scss"; */
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Josefin+Sans:wght@300;400&family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* background: rgb(22, 22, 26); */
+  background: rgb(17, 17, 17);
+  position: relative;
+}  
+
+body::-webkit-scrollbar {
+    width: 0rem;
+} 
+
+a {
+  color: inherit;
+  -webkit-text-decoration: none;
+    text-decoration: none;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    -webkit-transition-property: opacity, color, background-color, -webkit-transform, border;
+    -webkit-transition-property: opacity, color, background-color, transform, border;
+    transition-property: opacity, color, background-color, transform, border;
+}
+
+main { 
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+  
+
+.h1BG {
+  background: linear-gradient(76deg, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff);
+  background-size: 500% 500%;  
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-animation: slime 45s ease infinite;
+  animation: slime 45s ease infinite;
+}
+
+@-webkit-keyframes slime {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes slime {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
