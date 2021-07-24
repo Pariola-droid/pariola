@@ -278,38 +278,20 @@ nav .menuWrap .hamburger .span2.two {
   display: block;
   position: absolute;
   top: 0rem;
-  left: 0rem;
+  left: -80px;
   width: 26rem;
   height: 26rem;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("https://raw.githubusercontent.com/adeolaadeoti/adeolaadeoti-v2/main/public/webp/hand-left.webp");
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
 }
 
 @media only screen and (max-width: 45em) {
   .landing::before {
     width: 20rem;
     height: 20rem;
-  }
-}
-
-.landing::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: 0rem;
-  width: 25rem;
-  height: 45rem;
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: -1;
-}
-
-@media only screen and (max-width: 45em) {
-  .landing::after {
-    width: 20rem;
-    height: 40rem;
   }
 }
 
@@ -462,7 +444,7 @@ nav .menuWrap .hamburger .span2.two {
   height: 336.984px;
   width: 318.734px;
   position: absolute;
-  border: 2px solid  #f5f5f5;
+  border: 2px solid  #cbc9e2;
   top: 10%;
   left: 10%;
   background: transparent;
