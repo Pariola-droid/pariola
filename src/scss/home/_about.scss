@@ -1,12 +1,31 @@
 .about {
     width: 100%;
     height: 700px;
+    background: #020e1828;
     // background: $link-color;
     // background-color:rgb(7, 23, 37);
     position: relative;
      display: grid;
      place-items: center;
      overflow: hidden;
+
+       &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0rem;
+        left: -80px;
+        width: 26rem;
+        height: 26rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url("https://raw.githubusercontent.com/adeolaadeoti/adeolaadeoti-v2/main/public/webp/hand-left.webp");
+        transform: scale(0.6);
+        @media only screen and (max-width: 45em) {
+        width: 20rem;
+        height: 20rem;
+        }
+    }
 
      img {
         position: absolute; 

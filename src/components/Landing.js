@@ -7,6 +7,36 @@ export const Landing = () => {
        <>
 
             <section className="landing">
+
+                <div className="_rolledT">
+                    <h2 className="_rollT">
+                        <span className="_roll">P</span>
+                        <span className="_roll">a</span>
+                        <span className="_roll">r</span>
+                        <span className="_roll">i</span>
+                        <span className="_roll">o</span>
+                        <span className="_roll">l</span>
+                        <span className="_roll">a</span>
+                        <span className="_roll">-</span>
+                        <span className="_roll">P</span>
+                        <span className="_roll">a</span>
+                        <span className="_roll">r</span>
+                        <span className="_roll">i</span>
+                        <span className="_roll">o</span>
+                        <span className="_roll">l</span>
+                        <span className="_roll">a</span>
+                        <span className="_roll">-</span>
+                        <span className="_roll">P</span>
+                        <span className="_roll">a</span>
+                        <span className="_roll">r</span>
+                        <span className="_roll">i</span>
+                        <span className="_roll">o</span>
+                        <span className="_roll">l</span>
+                        <span className="_roll">a</span>
+                        <span className="_roll">-</span>
+                    </h2>
+                </div>
+
                 <div className="_wrapperLanding">
                       <div className="_text">
                         <div className="_textI">

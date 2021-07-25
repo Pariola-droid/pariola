@@ -4,7 +4,7 @@ import {Footer,Mobile,Mail,Caption,Experience,About,Landing,Navbar} from '../com
 
 export const Pariola = () => {
     return (
-        <>
+        <div className="data-scroll-container">
         
         <Navbar />
             
@@ -19,7 +19,7 @@ export const Pariola = () => {
             
         <Footer />  
         
-        </>
+        </div>
     )
 }
          

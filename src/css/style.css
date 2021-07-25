@@ -271,6 +271,7 @@ nav .menuWrap .hamburger .span2.two {
   display: grid;
   position: relative;
   place-items: center;
+  background: #020e1828;
 }
 
 .landing::before {
@@ -293,6 +294,34 @@ nav .menuWrap .hamburger .span2.two {
     width: 20rem;
     height: 20rem;
   }
+}
+
+.landing ._rolledT {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}
+
+.landing ._rolledT ._rollT {
+  color: #cbc9e2;
+  font-size: .6em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  -webkit-animation: rollSpin 7.5s linear infinite;
+          animation: rollSpin 7.5s linear infinite;
+}
+
+.landing ._rolledT ._rollT ._roll {
+  display: inline-block;
+  position: absolute;
+  text-transform: uppercase;
+  -webkit-transform-origin: 0 50px;
+          transform-origin: 0 50px;
 }
 
 .landing ._wrapperLanding {
@@ -453,11 +482,34 @@ nav .menuWrap .hamburger .span2.two {
 .about {
   width: 100%;
   height: 700px;
+  background: #020e1828;
   position: relative;
   display: -ms-grid;
   display: grid;
   place-items: center;
   overflow: hidden;
+}
+
+.about::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0rem;
+  left: -80px;
+  width: 26rem;
+  height: 26rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("https://raw.githubusercontent.com/adeolaadeoti/adeolaadeoti-v2/main/public/webp/hand-left.webp");
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+
+@media only screen and (max-width: 45em) {
+  .about::before {
+    width: 20rem;
+    height: 20rem;
+  }
 }
 
 .about img {
@@ -538,6 +590,7 @@ nav .menuWrap .hamburger .span2.two {
 .experience {
   height: 100vh;
   width: 100%;
+  background: #020e1828;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -609,6 +662,7 @@ nav .menuWrap .hamburger .span2.two {
 .caption {
   height: 695px;
   width: 100%;
+  background: #020e1828;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -743,6 +797,7 @@ nav .menuWrap .hamburger .span2.two {
 .mail {
   height: 680px;
   width: 100%;
+  background: #020e1828;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -1015,6 +1070,7 @@ nav .menuWrap .hamburger .span2.two {
 footer {
   height: 550px;
   width: 100%;
+  background: #020e1828;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

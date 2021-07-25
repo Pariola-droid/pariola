@@ -277,7 +277,7 @@ nav {
   display: grid;
   position: relative;
   place-items: center;
-  // background: #020e1828;
+  background: #020e1828;
   // background: rgb(16, 16, 17);
   // background: $bg-color-landing;
 
@@ -317,6 +317,33 @@ nav {
   //     height: 40rem;
   //   }
   // }
+
+  ._rolledT {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+    
+
+    & ._rollT {
+      color: #cbc9e2;
+      font-size: .6em;
+      user-select: none;
+      pointer-events: none;
+      // transform: scale(.9);
+       animation: rollSpin 7.5s linear infinite;
+     
+
+        & ._roll {
+          display: inline-block;
+          position: absolute;
+          text-transform: uppercase;
+          transform-origin: 0 50px;          
+        }
+    }
+  }
+
 
   ._wrapperLanding {
      width: 1120px;

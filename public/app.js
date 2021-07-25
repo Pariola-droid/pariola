@@ -1,3 +1,5 @@
+// import LocomotiveScroll from 'locomotive-scroll';
+
 document.addEventListener('DOMContentLoaded', function () {
        
    const hamburger = document.querySelector(".hamburger");
@@ -14,5 +16,26 @@ document.addEventListener('DOMContentLoaded', function () {
               spanTwo.classList.toggle("two");
                 
             });
+
+            
+            // <script>
+            //     (function () {
+            //         var scroll = new LocomotiveScroll();
+            //     })();
+            // </script>
+  
+            // const scroll = new LocomotiveScroll({
+            //     el: document.querySelector('[data-scroll-container]'),
+            //     smooth: true
+            // });
+  
+            // const roll = document.querySelector('._rollT');
+            // roll.innerHTML = roll.textContent.replace(/\s/g,"<span>$&</span>");
+
+            
+            const roll = document.querySelectorAll('._roll');
+            for (let i=0; i<roll.length; i++) {
+              roll[i].style.transform = "rotate("+i*15+"deg)"
+            }
     
    })

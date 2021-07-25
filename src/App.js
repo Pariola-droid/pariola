@@ -5,6 +5,7 @@ import {PariolaWorks,Pariola} from './pages'
 
 import './css/style.css';
 import './css/myworks.css';
+import './css/base.css';
 
 function App() {
   return (
