@@ -36,7 +36,7 @@ a {
 main { 
   color: #fff;
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
 }
   
