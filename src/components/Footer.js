@@ -14,8 +14,8 @@ export const Footer = () => {
                     </h3>
 
                     <ul>
-                        <li><a href="#0">hi@pariola.tech</a></li>
-                        <li><a href="https://blog.pariola.tech">blog.pariola.tech</a></li>
+                        <li><a href="mailto:ipariola@yahoo.com">hi@pariola.dev</a></li>
+                        <li><a href="https://blog.pariola.tech">blog.pariola.dev</a></li>
                       </ul>
                   </div>
   
@@ -34,7 +34,7 @@ export const Footer = () => {
 
               <div className="_footBase">
                   <span>
-                      &copy; Omopariola Philip 2021
+                      &copy; Omopariola Philip 2022
                   </span>
 
                   <ul>

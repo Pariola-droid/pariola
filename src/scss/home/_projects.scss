@@ -12,12 +12,131 @@
         align-items: center;
         flex-direction: column;
         height: fit-content;
-        width: 1000px;
+        width: 900px;
+
+        @media(max-width:600px) {
+            width: 88%;
+        }
 
         & .pros {
             width: 100%;
             height: 400px;
             background: rgb(22, 22, 26);
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 2rem 5rem;
+            // border: 2px solid  #cbc9e2;
+
+            @media(max-width:600px) {
+                height: auto;
+                align-items: center;
+                flex-direction: column;
+                padding: 5rem 2rem;
+            }
+
+            & .proImg {
+                height: 280px;
+                width: 280px;
+                border-radius: 30px;
+                background: #f5f5fa;
+
+                @media(max-width:600px) {
+                    height: 230px;
+                    width: 230px;
+                }
+            }
+
+            & .proText {
+                margin-left: 60px;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+
+                @media(max-width:600px) {
+                    margin-left: 0;
+                    margin-top: 60px;
+                    align-items: center;
+                }
+
+                & h1 {
+                    font-size: 3.5em;
+                    font-weight: 900;
+                    letter-spacing: -0.03em;
+                    color: transparent;
+                    max-width: 30vw;
+
+                    @media(max-width:600px) {
+                        max-width: unset;
+                        font-size: 2.5em;
+                        font-weight: 800;
+                        letter-spacing: 2px;
+                    }
+                }
+
+                & p {
+                    max-width: 400px;
+                    line-height: 1.6;
+                    color: #cbc9e2; 
+                    font-size: .9em;
+                    font-family: 'Josefin Sans', sans-serif;
+                    margin-top: 1rem;
+                    margin-bottom: 2rem;
+
+                    @media(max-width:600px) {
+                        text-align: center;
+                    }
+                }
+
+                ._aCapture {
+                    font-family: 'Josefin Sans', sans-serif;
+                    min-width: 60px;
+                    position: relative;
+                    font-weight: bold;
+                    -webkit-text-transform: uppercase;
+                    text-transform: uppercase;
+                    letter-spacing: 0.1em;
+                    font-size: 0.8em;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    display: -webkit-inline-box;
+                    display: -webkit-inline-flex;
+                    display: -ms-flexbox;
+                    display: inline-flex;
+                    overflow: hidden;
+                    background: transparent;
+                    white-space: nowrap;
+                    -webkit-tap-highlight-color: transparent;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 1.6em 3em;  
+                    // width: 100%;
+                    color: #cbc9e2;
+                    border: 1px solid #cbc9e2;
+                    
+                    span {
+                        background: linear-gradient(76deg, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff, #fde1ff, #e0e7ff, #e0f9ff, #fffae9, #e8eaff, #ffe3f7, #daf1ff);
+                        -webkit-animation: slime 45s ease infinite;
+                            animation: slime 45s ease infinite;
+                        opacity: .3;
+                        height: 100%;
+                        position: absolute;
+                        z-index: -1;
+                        -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+                        -webkit-transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+                        transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+                    }
+                }
+                ._aCapture:hover {
+                        z-index: 1;
+                        color: #fff;
+                    }
+                ._aCapture:hover span{
+                        width: 100%;
+                    }
+            }
 
             &:not(:last-of-type) {
                 margin-bottom: 50px;
