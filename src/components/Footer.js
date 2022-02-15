@@ -15,7 +15,7 @@ export const Footer = () => {
 
                     <ul>
                         <li><a href="mailto:ipariola@yahoo.com">hi@pariola.dev</a></li>
-                        <li><a href="https://blog.pariola.tech">blog.pariola.dev</a></li>
+                        <li><a href="https://ipariola.hashnode.dev/" target="_blanket" rel="noopener">blog.pariola.dev</a></li>
                       </ul>
                   </div>
   
@@ -25,9 +25,9 @@ export const Footer = () => {
                     </h3>
 
                         <ul>
-                            <li><Link to="/works">My Works</Link></li>
-                            <li><a href="">My Shelf</a></li>
-                            <li><a href="">My Résumé</a></li>
+                            <li><a href="#projects">My Works</a></li>
+                            <li><a href="https://github.com/pariola-droid" target="_blanket" rel="noopener">My Shelf</a></li>
+                            <li><a href="https://drive.google.com/file/d/17A4LDyeQa83eOyRYEhNquWY7q_3TCMJn/view?usp=sharing" target="_blanket" rel="noopener">My Résumé</a></li>
                         </ul>
                   </div>
               </div>
@@ -38,10 +38,10 @@ export const Footer = () => {
                   </span>
 
                   <ul>
-                      <li><a href="https://twitter.com/ipariola">tw</a></li>
-                      <li><a href="https://github.com/pariola-droid">gh</a></li>
-                      <li><a href="https://www.linkedin.com/in/omopariola-philip-6aa038178/">ln</a></li>
-                      <li><a href="https://instagram.com/ipariola">ig</a></li>
+                      <li><a href="https://twitter.com/ipariola" target="_blanket" rel="noopener">tw</a></li>
+                      <li><a href="https://github.com/pariola-droid" target="_blanket" rel="noopener">gh</a></li>
+                      <li><a href="https://www.linkedin.com/in/omopariola-philip-6aa038178/" target="_blanket" rel="noopener">ln</a></li>
+                      <li><a href="https://instagram.com/ipariola" target="_blanket" rel="noopener">ig</a></li>
                   </ul>
               </div>
         </footer>

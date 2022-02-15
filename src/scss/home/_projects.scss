@@ -35,11 +35,23 @@
                 padding: 5rem 2rem;
             }
 
+            &:nth-child(3) {
+                & > img {
+                    height: 50px;
+                }
+            }
+
             & .proImg {
                 height: 280px;
                 width: 280px;
                 border-radius: 30px;
                 background: #f5f5fa;
+                display: grid;
+                place-items: center;
+
+                & img {
+                    height: 120px;
+                }
 
                 @media(max-width:600px) {
                     height: 230px;

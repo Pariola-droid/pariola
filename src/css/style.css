@@ -910,11 +910,22 @@ nav #uc {
   }
 }
 
+#projects .wrapper .pros:nth-child(3) > img {
+  height: 50px;
+}
+
 #projects .wrapper .pros .proImg {
   height: 280px;
   width: 280px;
   border-radius: 30px;
   background: #f5f5fa;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#projects .wrapper .pros .proImg img {
+  height: 120px;
 }
 
 @media (max-width: 600px) {
