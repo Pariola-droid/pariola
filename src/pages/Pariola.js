@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Footer,Mobile,Mail,Caption,Experience,About,Landing,Navbar} from '../components'
+import {Footer,Mail,Projects,Caption,Experience,About,Landing,Navbar} from '../components'
 
 export const Pariola = () => {
     return (
@@ -11,10 +11,10 @@ export const Pariola = () => {
             <main>
                 <Landing />  
                 <About />  
-                <Experience />  
                 <Caption />  
+                <Experience /> 
+                <Projects /> 
                 <Mail />  
-                <Mobile />  
             </main>
             
         <Footer />  

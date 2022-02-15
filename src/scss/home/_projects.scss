@@ -1,0 +1,28 @@
+#projects {
+    height: auto;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 0px 0;
+    padding-top: 120px;
+    background: #020e1828;
+
+    & .wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+        width: 1000px;
+
+        & .pros {
+            width: 100%;
+            height: 400px;
+            background: rgb(22, 22, 26);
+
+            &:not(:last-of-type) {
+                margin-bottom: 50px;
+            }
+            
+        }
+    }
+}

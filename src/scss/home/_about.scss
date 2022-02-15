@@ -9,6 +9,10 @@
      place-items: center;
      overflow: hidden;
 
+     @media(max-width:600px) {
+         height: auto;
+     }
+
        &::before {
         content: "";
         display: block;
@@ -56,15 +60,20 @@
      }
 
     ._aboutWrapper {
-        // width: 1092.800px;
         width: 1200px;
         height: 400px;
         display: flex;
-        // position: relative;
         align-items: center;
         justify-content: space-around;
         // background-color: green;
          z-index: 1;
+
+        @media(max-width:600px) {
+            width: 88%;
+            height: fit-content;
+            justify-content: space-between;
+            flex-direction: column;
+        }
 
         ._textAbt {
             // width: auto;
@@ -83,6 +92,10 @@
                     color: transparent;
                     max-width: 30vw;
                     
+                    @media(max-width:600px) {
+                        font-size: 2.5em;
+                        max-width: unset;
+                    }
             }
 
             p {
@@ -97,9 +110,17 @@
 
         ._textAbt:nth-child(1){
             margin-bottom: auto;
+
+            @media(max-width:600px) {
+                margin-bottom: 35px;
+            }
         }
         ._textAbt:nth-child(2){
             margin-top: auto;
+
+            @media(max-width:600px) {
+                margin-top: 35px;
+            }
         }
     }
 }

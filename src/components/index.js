@@ -5,6 +5,7 @@ export * from './Landing';
 export * from './About';
 export * from './Experience';
 export * from './Caption';
+export * from './Projects';
 export * from './Mail';
 export * from './Mobile';
 export * from './Footer';

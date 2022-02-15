@@ -207,3 +207,103 @@
     }
 }
 
+@media (max-width: 600px) {
+  .mail {
+    height: auto;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .mail ._mailWrapper {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    transform: scale(0.9);
+  }
+  .mail ._mailWrapper ._mailText {
+    text-align: left;
+    margin-bottom: 5.2em;
+    width: 100%;
+    min-width: 300px;
+    margin-top: 1rem;
+  }
+  .mail ._mailWrapper ._mailText h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-top: 1rem;
+  }
+  .mail ._mailWrapper ._mailText p {
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin-top: 2rem;
+    letter-spacing: 0.02em;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: .7;
+  }
+  .mail ._mailWrapper ._mailForm {
+    width: 100%;
+    min-width: 260px;
+    height: auto;
+    margin-top: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .mail ._mailWrapper ._mailForm ._row {
+    display: block;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowI {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowI input {
+    margin-bottom: 2em;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowI input::-webkit-input-placeholder {
+    opacity: .5;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowI input:-ms-input-placeholder {
+    opacity: .5;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowI input::-ms-input-placeholder {
+    opacity: .5;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowI input::placeholder {
+    opacity: .5;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowT {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowT textarea {
+    height: 8rem;
+    margin-bottom: 1.5rem;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowT textarea::-webkit-input-placeholder {
+    opacity: .5;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowT textarea:-ms-input-placeholder {
+    opacity: .5;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowT textarea::-ms-input-placeholder {
+    opacity: .5;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowT textarea::placeholder {
+    opacity: .5;
+  }
+  .mail ._mailWrapper ._mailForm ._row .shoot {
+    width: 100%;
+    min-width: 260px;
+    margin-bottom: 2rem;
+  }
+}
+
