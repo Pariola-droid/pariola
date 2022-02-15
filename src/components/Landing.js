@@ -9,32 +9,7 @@ export const Landing = () => {
             <section className="landing">
 
                 <div className="_rolledT">
-                    <h2 className="_rollT">
-                        <span className="_roll">P</span>
-                        <span className="_roll">a</span>
-                        <span className="_roll">r</span>
-                        <span className="_roll">i</span>
-                        <span className="_roll">o</span>
-                        <span className="_roll">l</span>
-                        <span className="_roll">a</span>
-                        <span className="_roll">-</span>
-                        <span className="_roll">P</span>
-                        <span className="_roll">a</span>
-                        <span className="_roll">r</span>
-                        <span className="_roll">i</span>
-                        <span className="_roll">o</span>
-                        <span className="_roll">l</span>
-                        <span className="_roll">a</span>
-                        <span className="_roll">-</span>
-                        <span className="_roll">P</span>
-                        <span className="_roll">a</span>
-                        <span className="_roll">r</span>
-                        <span className="_roll">i</span>
-                        <span className="_roll">o</span>
-                        <span className="_roll">l</span>
-                        <span className="_roll">a</span>
-                        <span className="_roll">-</span>
-                    </h2>
+                    <img src="https://ik.imagekit.io/9ghb9cknpe/rolledP_tkoMVLkJZgB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644894508084" />
                 </div>
 
                 <div className="_wrapperLanding">

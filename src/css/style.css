@@ -87,28 +87,14 @@ nav #uc {
   width: auto;
   height: auto;
   position: absolute;
-  bottom: 40px;
-  right: 80px;
+  bottom: -100px;
+  right: 0;
 }
 
-.landing ._rolledT ._rollT {
-  color: #cbc9e2;
-  font-size: .6em;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  pointer-events: none;
-  -webkit-animation: rollSpin 7.5s linear infinite;
-          animation: rollSpin 7.5s linear infinite;
-}
-
-.landing ._rolledT ._rollT ._roll {
-  display: inline-block;
-  position: absolute;
-  text-transform: uppercase;
-  -webkit-transform-origin: 0 50px;
-          transform-origin: 0 50px;
+@media (max-width: 600px) {
+  .landing ._rolledT {
+    bottom: -40px;
+  }
 }
 
 .landing ._wrapperLanding {
@@ -641,12 +627,14 @@ nav #uc {
 }
 
 .experience ._expWrapper figure img {
-  height: 450px;
+  height: 350px;
+  margin-left: 50px;
 }
 
 @media (max-width: 600px) {
   .experience ._expWrapper figure img {
     height: 200px;
+    margin-left: 0px;
   }
 }
 

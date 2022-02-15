@@ -34,7 +34,7 @@ export const Experience = () => {
                     </article>
 
                   <figure>
-                        <img src="https://raw.githubusercontent.com/whizkydee/olaolu.dev/12fddfb9fb9e422928120d77b3b94f26f67374f0/landing/src/assets/olaolu-work-illo.svg" alt=""/>
+                        <img src="https://ik.imagekit.io/9ghb9cknpe/Group_1__1__isF6D1V2m8k.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644895899985" alt=""/>
                   </figure>  
               </div>
           </section>

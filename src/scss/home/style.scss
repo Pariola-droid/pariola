@@ -99,26 +99,17 @@ nav {
     width: auto;
     height: auto;
     position: absolute;
-    bottom: 40px;
-    right: 80px;
-    
+    bottom: -100px;
+    right: 0;
 
-    & ._rollT {
-      color: #cbc9e2;
-      font-size: .6em;
-      user-select: none;
-      pointer-events: none;
-      // transform: scale(.9);
-       animation: rollSpin 7.5s linear infinite;
-     
-
-        & ._roll {
-          display: inline-block;
-          position: absolute;
-          text-transform: uppercase;
-          transform-origin: 0 50px;          
-        }
+    @media(max-width:600px) {
+      bottom: -40px;
     }
+    
+    & img {
+
+    }
+
   }
 
 
