@@ -13,23 +13,23 @@ export const Experience = () => {
                         </h1>
                         
                         <p>
-                          I've built products for companies and businesses around the globe ranging from marketing websites to complex solutions and enterprise apps with focus on fast, elegant and accessible user experiences.
+                          I've built products for companies and individuals around africa ranging from marketing websites to complex solutions and enterprise apps with focus on fast, elegant and accessible user experiences.
                         </p>
 
                         <p>
-                          Currently, I work at Shopify as a Senior UX Developer and Accessibility advocate crafting thoughtful and inclusive experiences that adhere to web standards for over .
+                          Currently, I work at Klas as the Lead frontend engineer crafting thoughtful and inclusive experiences that adhere to web standards.
                         </p>
 
                         <p>
-                          Before now, I was Principal Frontend Software Engineer at hellotax, where I worked on a suite of tools and services tailored at providing fast, automated VAT Registration / filings &amp; Returns solutions for.
+                          Before now, I worked as a Frontend Engineering Intern at Regnify, where I worked on coverting Figma UI to interactives codes for orgs and individuals.
                         </p>
 
                         <p>
-                          Prior to hellotax, I was Senior frontend engineering contractor with Pixel2HTML, building JavaScript applications and interfaces for orgs and individuals.
+                          Prior to Regnify, I was a front engineer contractor with TheHouseInterior, building cool UIs that users love, overall the improving the whole product experience.
                         </p>
 
                         <p>
-                          I once also led the frontend team at a Russian startup, Conectar through building multiple React applications .
+                          I once also led the engineering team at a crypto startup, Badger Inu through building multiple React applications.
                         </p>
                     </article>
 

@@ -65,7 +65,7 @@ export const Landing = () => {
                           </p>
 
                           <p className="h1BG">
-                            Over a decade of experience building products for clients across several countries.
+                            Over a two years of experience building products for clients across africa.
                           </p>
                         </div>
                      </div>

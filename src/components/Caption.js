@@ -44,7 +44,7 @@ export const Caption = () => {
                             </p>
                         </article>
 
-                        <a href="" className="_aCapture">
+                        <a href="https://ipariola.hashnode.dev" target="_blank" rel="noopener" className="_aCapture">
                             read my articles
                             <span></span>
                         </a>
