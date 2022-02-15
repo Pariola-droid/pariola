@@ -24,7 +24,7 @@ export const Projects = () => {
                                 <span></span>
                             </a>
                         </div>
-                    </div>
+                    </div>                    
 
                     <div className="pros">
                         <div className="proImg">
@@ -42,6 +42,27 @@ export const Projects = () => {
 
                             <a href="https://tryrezu.com" target="_blanket" rel="noopener"  className="_aCapture">
                                 see klas
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="pros">
+                        <div className="proImg">
+                        </div>
+
+                        <div className="proText">
+                            <h1 className="h1BG">
+                                ChurchRUSH
+                            </h1>
+
+                            <p>
+                                Minimalistic resume pages.<br/>
+                                Taking away the hassle of building rezume pages, with rezu. minimalistic resume pages can be built with ease.
+                            </p>
+
+                            <a href="https://churchrush.com" target="_blanket" rel="noopener" className="_aCapture">
+                                see site.
                                 <span></span>
                             </a>
                         </div>

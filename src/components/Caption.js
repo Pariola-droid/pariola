@@ -22,7 +22,7 @@ export const Caption = () => {
                             </p>
                         </article>
 
-                        <a href="" className="_aCapture">
+                        <a href="#projects" className="_aCapture">
                             see my work
                             <span></span>
                         </a>
