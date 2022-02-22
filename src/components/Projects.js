@@ -70,7 +70,7 @@ export const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="pros">
+                    {/*<div className="pros">
                         <div className="proImg">
                             <img src="https://ik.imagekit.io/9ghb9cknpe/favicon_7s2Zj0XGnnu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644323602570" alt="churchRUSH's logo"/>
                         </div>
@@ -89,7 +89,7 @@ export const Projects = () => {
                                 <span></span>
                             </a>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </section>
            
