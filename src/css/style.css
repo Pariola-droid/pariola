@@ -845,6 +845,12 @@ nav #uc {
   background: #020e1828;
 }
 
+@media (max-width: 600px) {
+  #projects {
+    padding-top: 90px;
+  }
+}
+
 #projects .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
