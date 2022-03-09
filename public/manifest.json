@@ -3,18 +3,18 @@
   "name": "pariola.dev",
   "icons": [
     {
-      "src": "PariolaVictory.png",
+      "src": "pariola.jpeg",
       "sizes": "64x64",
-      "type": "image/png"
+      "type": "image/jpeg"
     },
     {
-      "src": "Pariola_Victory.png",
-      "type": "image/png",
+      "src": "pariola.jpeg",
+      "type": "image/jpeg",
       "sizes": "192x192"
     },
     {
-      "src": "Pariola_Victory.png",
-      "type": "image/png",
+      "src": "pariola.jpeg",
+      "type": "image/jpeg",
       "sizes": "512x512"
     }
   ],

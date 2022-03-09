@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="https://ik.imagekit.io/9ghb9cknpe/Pariola_Victory_KXstbVN9V.png" />
+    <link rel="icon" href="%PUBLIC_URL%/pariola.jpeg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#020e18" />
 
-    <link rel="apple-touch-icon" href="https://ik.imagekit.io/9ghb9cknpe/Pariola_Victory_KXstbVN9V.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/pariola.jpeg" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -58,7 +58,17 @@
       
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"> 
 
-      </head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=process.env.G_TAG_PARIOLA"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'process.env.G_TAG_PARIOLA');
+      </script>
+
+    </head>
   <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root"></div>
