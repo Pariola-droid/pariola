@@ -59,13 +59,13 @@
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"> 
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=process.env.G_TAG_PARIOLA"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=${process.env.G_TAG_PARIOLA}"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'process.env.G_TAG_PARIOLA');
+        gtag('config', '${process.env.G_TAG_PARIOLA}');
       </script>
 
     </head>
