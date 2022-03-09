@@ -619,21 +619,21 @@ nav #uc {
 
 @media (max-width: 600px) {
   .experience ._expWrapper figure {
-    margin-top: 40px;
     height: 300px;
     margin: 0 auto;
+    margin-top: 40px;
     width: 100%;
   }
 }
 
 .experience ._expWrapper figure img {
-  height: 350px;
+  height: 450px;
   margin-left: 50px;
 }
 
 @media (max-width: 600px) {
   .experience ._expWrapper figure img {
-    height: 200px;
+    height: 300px;
     margin-left: 0px;
   }
 }

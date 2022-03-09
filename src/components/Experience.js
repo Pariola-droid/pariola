@@ -1,3 +1,5 @@
+import stacked from "../img/revolve-pariola-2.svg"
+
 export const Experience = () => {
  
     return(
@@ -34,7 +36,7 @@ export const Experience = () => {
                     </article>
 
                   <figure>
-                        <img src="https://ik.imagekit.io/9ghb9cknpe/Group_1__1__isF6D1V2m8k.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644895899985" alt=""/>
+                        <img src={stacked} alt=""/>
                   </figure>  
               </div>
           </section>
