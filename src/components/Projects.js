@@ -25,7 +25,7 @@ export const Projects = () => {
                                 <span></span>
                             </a>
                         </div>
-                    </div>
+                    </div> 
                     
                     <div className="pros">
                         <div className="proImg">
@@ -81,10 +81,31 @@ export const Projects = () => {
                             </h1>
 
                             <p>
-                                A safe place to grow in faith, have an encounter with God, find your community and fufill your purpose. Would you like us to notify you when we launch?
+                                A safe place to grow in faith, have an encounter with God, find your community and fufill your purpose. 
                             </p>
 
                             <a href="https://churchrush.com" target="_blanket" rel="noopener" className="_aCapture">
+                                see site.
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="pros">
+                        <div className="proImg">
+                            <img src="https://enyata.vercel.app/enyata-white.svg" alt="Enyata's logo"/>
+                        </div>
+
+                        <div className="proText">
+                            <h1 className="h1BG">
+                                Enyata Clone
+                            </h1>
+
+                            <p>
+                                A Clone of enyata.com official website, built in nextjs and scss.
+                            </p>
+
+                            <a href="https://enyata.vercel.app" target="_blanket" rel="noopener" className="_aCapture">
                                 see site.
                                 <span></span>
                             </a>
