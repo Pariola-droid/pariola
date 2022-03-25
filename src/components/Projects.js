@@ -93,7 +93,7 @@ export const Projects = () => {
 
                     <div className="pros">
                         <div className="proImg">
-                        <img src="https://enyata.vercel.app/enyata-white.svg" alt="Enyata's logo" height="40px"
+                        <img src="https://enyata.vercel.app/enyata-white.svg" alt="Enyata's logo" style={{height: "40px"}}
                         />
                         </div>
 
